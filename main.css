@@ -321,7 +321,6 @@ ul li {
   position: relative;
 }
 
-
 ul.rooms {
   margin-bottom: 30px;
 }
@@ -377,7 +376,6 @@ ul.bulleted .out:before {
   content: "OUT";
   background-color: #ed5a5a;
 }
-
 
 footer p {
   color: #b2bac2;
