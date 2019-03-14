@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.getJSON('../data/employees.json', function (data) {
-    var statusHTML = '<ul class="bulleted">';
+    let statusHTML = '<ul class="bulleted">';
     $.each(data,function (index, employee) {
       if (employee.inoffice === true) {
         statusHTML +='<li class="in">';
@@ -14,7 +14,7 @@ $(document).ready(function () {
   }); // end getJSON
   
  $.getJSON('../data/rooms.json', function (data){
-   var statusHTML = '<ul class="rooms">';
+   let statusHTML = '<ul class="rooms">';
    $.each(data, function (index, room){
     if (room.available === true){
       statusHTML += '<li class="empty">';
